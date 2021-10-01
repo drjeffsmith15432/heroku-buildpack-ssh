@@ -2,7 +2,7 @@
 
 # fail fast
 set -eu
-
+set -x
 indent() {
   sed -u 's/^/       /'
 }
